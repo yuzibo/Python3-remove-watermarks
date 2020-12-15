@@ -1,6 +1,6 @@
 # Python3-Remove-Watermark
-First, the program use python3. 
-A simple program to remove the watermark from a PDF file. 
+First, the program use python3.
+A simple program to remove the watermark from a PDF file.
 Original code from [here](https://github.com/LJSthu/Python-Remove-Watermark)
 
 ### how?
@@ -13,12 +13,20 @@ Original code from [here](https://github.com/LJSthu/Python-Remove-Watermark)
 
 ### environment
 `pdf2image`: pip3 install pdf2image
+
 `scikit-image`: pip3 install scikit-image
+
 `pathlib`: pip3 install pathlib
 
 ### usage
-Change pdf path in watermark.py for your owm pdf file locations. Then `python3 watermark.py`
+1. Change pdf path in watermark.py for your owm pdf file locations. Then
+
+`python3 watermark.py`
+
 Output will be in the same dir.
+
+2. python3 rm_mark.py
+Execute another pythron program to remove watermarks that [from here](https://stackoverflow.com/questions/32125281/removing-watermark-out-of-an-image-using-opencv)
 
 ### todo
 1. It is plan to use opencv to drop watermark.
